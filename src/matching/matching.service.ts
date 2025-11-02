@@ -121,7 +121,7 @@ export class MatchingService {
     }
 
     if (booking.insurance === claim.insurance) {
-      score += 1;
+      score++;
     } else {
       mismatches.push('insurance');
     }
